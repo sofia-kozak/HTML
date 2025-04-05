@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.flex{
+    height: 350px;
+    background-color: #ffcdbc;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+.circle:hover{
+    border-radius: 50%;
+    background-color: #808080;
+    transition: 1s;
+}
+

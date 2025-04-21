@@ -1,0 +1,38 @@
+*{
+    margin:0;
+}
+nav{
+    height: 5vh;
+    background: #D9D9D9;
+}
+main{
+    height: 86vh;
+    display: flex;
+}
+main section{
+    height: 100%;
+    width: 29vw;
+    background: #A4A4A4;
+}
+main article{
+    height: 100%;
+    width: 31vw;
+    background: #C1C1C1;
+}
+.main__top-aside{
+    height: 43vh;
+    width: 40vw;
+    background: #7F7A7A;
+}
+div{
+
+}
+.main__bottom-aside{
+    height: 43vh;
+    width: 40vw;
+    background: #6B6161;
+}
+footer{
+    height: 9vh;
+    background: #D9D9D9;
+}

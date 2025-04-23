@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сердечко для Юрчика</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <style>
+        body {
+            background-color: #fff0f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .heart-wrapper {
+            position: relative;
+            width: 220px;
+            height: 210px;
+            animation: pulse 1.5s infinite;
+        }
+
+        .heart-shape {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 190px;
+            background: #e60073;
+            transform: rotate(-45deg);
+        }
+
+        .heart-shape::before,
+        .heart-shape::after {
+            content: "";
+            position: absolute;
+            width: 200px;
+            height: 190px;
+            background: #e60073;
+            border-radius: 50%;
+        }
+
+        .heart-shape::before {
+            top: -100px;
+            left: 0;
+        }
+
+        .heart-shape::after {
+            left: 100px;
+            top: 0;
+        }
+
+        .name {
+            position: absolute;
+            top: 38%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            pointer-events: none;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="heart-wrapper">
+    <div class="heart-shape"></div>
+    <div class="name">Юрчик</div>
+</div>
+</body>
+</html>

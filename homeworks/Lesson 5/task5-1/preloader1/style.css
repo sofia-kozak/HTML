@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid;
+    box-sizing: border-box;
+    animation: preloader 1s linear infinite alternate;
+}
+    @keyframes preloader {
+        0% {
+            border-color: hotpink white white white;
+        }
+        33% {
+            border-color: hotpink hotpink white white;
+        }
+        66% {
+            border-color: hotpink hotpink hotpink white;
+        }
+        100% {
+            border-color: hotpink hotpink hotpink hotpink;
+        }
+    }

@@ -124,6 +124,12 @@ ul a{
     align-items: center;
 }
 /*-------------footer------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .h-order-outline{
     width: 895px;
     color: #E9E3DC;

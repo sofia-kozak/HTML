@@ -7,6 +7,7 @@
 body{
     background-color: #1E1E1E;
 }
+/*---------------header------------*/
 .w-1340{
     width: 1340px;
     margin: 0 auto;
@@ -65,6 +66,7 @@ ul a{
     display: block;
     margin: 0 auto;
 }
+/*--------------main------------*/
 .section__about-burger{
     width: 1340px;
     height: 369px;
@@ -121,6 +123,7 @@ ul a{
     justify-content: space-between;
     align-items: center;
 }
+/*-------------footer------------*/
 .h-order-outline{
     width: 895px;
     color: #E9E3DC;

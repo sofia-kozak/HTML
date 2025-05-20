@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.registration-form{
+    margin: 0 auto;
+    width: 30vw;
+    height: 93vh;
+}
+/*-----login-----*/
+.login{
+    height: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.49);
+}
+.login, form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login img{
+    margin-top: 20px;
+    width: 60%;
+}
+input[type="text"], input[type="password"]{
+    width: 75%;
+    padding: 3% 1%;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 75%;
+    font-weight: 600;
+    font-size: 16px;
+    height: 35px;
+    margin-top: 15px;
+    color: white;
+    background: #68b5fa;
+    border-radius: 10px;
+    border: none;
+}
+form span{
+    margin: 20px 0;
+    color: #797979;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+form svg{
+    margin-bottom: -5px;
+}
+form p{
+    color: #3c5588;
+    font-weight: 600;
+    margin: 15px 0;
+}
+form a{
+    text-decoration: none;
+    color: #3c5588;
+    font-size: 14px;
+    margin: 15px 0;
+}
+/*------registration-------*/
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 5%;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.49);
+}
+.registration a{
+    text-decoration: none;
+    color: #31a0f5;
+    font-weight: 600;
+}

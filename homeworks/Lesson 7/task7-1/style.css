@@ -4,12 +4,14 @@
 }
 
 body{
-    height: 100vh;
+    height: 982px;
+    width: 1512px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 132px;
     margin-left: 145px;
+    margin-right: 142px;
 }
 .card{
     width: 319px;

@@ -9,8 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 132px;
-    margin-left: 145px;
-    margin-right: 142px;
+    margin: 269px 142px 221px 145px;
 }
 .card{
     width: 319px;
